@@ -8,7 +8,7 @@ model = pipeline(
 
 
 def predict(prompt):
-    summary = model(prompt)[0]["summary_text"]
+    summary = model(prompt)[0]["summary_text2"]
     return summary
 
 
